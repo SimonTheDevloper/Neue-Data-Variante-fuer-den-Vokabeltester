@@ -5,7 +5,7 @@ let vokabeln = {
         { wort: 'Milch', fremdsprache: 'Milk' },
         { wort: 'Wasser', fremdsprache: 'Water' },
         { wort: 'Fleisch', fremdsprache: 'Meat' },
-        { wort: 'Obst', fremdsprache: 'Fruit' }
+        { wort: 'Obst', fremdsprache: 'Fruit' },
     ],
 
     'Unit 2': [
@@ -14,11 +14,11 @@ let vokabeln = {
         { wort: 'Bett', fremdsprache: 'Bed' },
         { wort: 'Fenster', fremdsprache: 'Window' },
         { wort: 'Tür', fremdsprache: 'Door' },
-        { wort: 'Küche', fremdsprache: 'Kitchen' }
+        { wort: 'Küche', fremdsprache: 'Kitchen' },
     ],
     'Unit 3': [
         { wort: 'Hund', fremdsprache: 'Dog' },
-        { wort: 'Katze', fremdsprache: 'Cat' }
+        { wort: 'Katze', fremdsprache: 'Cat' },
     ],
 };
 
@@ -47,3 +47,5 @@ console.log(allesInEinemArray);
 console.log(alleVokabelKategorien);
 console.log(vokabeln['wort']); // Alle Vokabeln wörter
 console.log(vokabeln['Unit 1'][1]);
+
+// hinzufügen Teil 
