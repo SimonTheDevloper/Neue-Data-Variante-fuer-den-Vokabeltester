@@ -38,6 +38,7 @@ let gefiltert = Object.fromEntries(
 let gefilterteAlleObjekteInNemArray = Object.values(gefiltert).flat();
 let alleWörterZuDieserKategorie = gefilterteAlleObjekteInNemArray.map(alleWörter => alleWörter.wort);
 let a
+console.log(alleWörterZuDieserKategorie);
 console.log(gefilterteAlleObjekteInNemArray);
 console.log(gefiltert);
 

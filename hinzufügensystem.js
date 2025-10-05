@@ -22,6 +22,12 @@ let vokabeln = {
     ],
 };
 
+let vokabelListe = [
+    { kategorie: 'Essen', wort: 'wels', fremdsprache: 'silure' },
+    { kategorie: 'Essen', word: 'sardine', fremdsprache: 'sardine' }
+]
+
+
 interaktiveVokabelHinzufuegung()
 function interaktiveVokabelHinzufuegung() {
     let kategorie = prompt("Bitte geben Sie den Namen der Kategorie ein (z.B. 'Unit 4' oder 'Unit 1'):");
